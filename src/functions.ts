@@ -2,7 +2,7 @@ function add(n1: number, n2: number) {
   return n1 + n2;
 }
 
-function printResult(num: number) {
+function printResult2(num: number) {
   console.log("Result: " + num);
 }
 
@@ -12,7 +12,7 @@ function addAndHandle(n1: number, n2: number, cb: (num: number) => void) {
   cb(result);
 }
 
-console.log(printResult(add(5, 12)));
+console.log(printResult2(add(5, 12)));
 
 //변수를 통해 함수 실행
 // let combineValues: Function;
